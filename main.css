@@ -33,27 +33,33 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom:0px;
-  width: 450px;
+  width: 900px;
   background-color: white;
   border-radius: 7px;
   text-align: center;
-  padding: 10px;
+  padding: 40px;
 }
 
 #text {
-  font-size: 1.3em;
+  font-size: 2em;
   font-style: regular;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
+}
+
+#textbox {
+    width: 900px;
+    padding-top: 35px;
 }
 
 .authorbox {
   font: verdana;
-  font-size: 0.5em;
-  text-align: right;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 35px;
 }
 
 #author {
-  font-size: 11px;
+  font-size: 1em;
   font-style: italic;
 }
 
@@ -84,3 +90,4 @@ body {
   display: inline;
   text-align: right;
 }
+
